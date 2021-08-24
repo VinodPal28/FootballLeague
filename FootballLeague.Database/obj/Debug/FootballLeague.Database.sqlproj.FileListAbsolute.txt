@@ -1,0 +1,9 @@
+E:\testdome\FootballLeague\FootballLeague.Database\bin\Debug\FootballLeague.Database.dacpac
+E:\testdome\FootballLeague\FootballLeague.Database\bin\Debug\FootballLeague.Database.dll
+E:\testdome\FootballLeague\FootballLeague.Database\bin\Debug\FootballLeague.Database.pdb
+E:\testdome\FootballLeague\FootballLeague.Database\obj\Debug\Model.xml
+E:\testdome\FootballLeague\FootballLeague.Database\obj\Debug\refactor.xml
+E:\testdome\FootballLeague\FootballLeague.Database\obj\Debug\postdeploy.sql
+E:\testdome\FootballLeague\FootballLeague.Database\obj\Debug\predeploy.sql
+E:\testdome\FootballLeague\FootballLeague.Database\obj\Debug\FootballLeague.Database.dll
+E:\testdome\FootballLeague\FootballLeague.Database\obj\Debug\FootballLeague.Database.pdb

@@ -1,0 +1,77 @@
+24-08-2021 13:41:40	This log contains information about the import schema operation into project 'FootballLeague.Database' on computer 'VINOD' by user 'Vinod-PC'.
+24-08-2021 13:41:40	Import of database schema has started.
+24-08-2021 13:41:49	Gathering database options
+24-08-2021 13:41:49	Gathering users
+24-08-2021 13:41:49	Gathering roles
+24-08-2021 13:41:49	Gathering application roles
+24-08-2021 13:41:49	Gathering role memberships
+24-08-2021 13:41:49	Gathering filegroups
+24-08-2021 13:41:49	Gathering full-text catalogs
+24-08-2021 13:41:49	Gathering assemblies
+24-08-2021 13:41:49	Gathering certificates
+24-08-2021 13:41:49	Gathering asymmetric keys
+24-08-2021 13:41:49	Gathering symmetric keys
+24-08-2021 13:41:49	Gathering encrypted symmetric keys
+24-08-2021 13:41:49	Gathering schemas
+24-08-2021 13:41:49	Gathering XML schema collections
+24-08-2021 13:41:49	Gathering user-defined data types
+24-08-2021 13:41:49	Gathering user-defined types
+24-08-2021 13:41:49	Gathering table types
+24-08-2021 13:41:49	Gathering unique keys for table types
+24-08-2021 13:41:49	Gathering primary keys for table types
+24-08-2021 13:41:49	Gathering indexes for table types
+24-08-2021 13:41:49	Gathering check constraints for table types
+24-08-2021 13:41:49	Gathering default constraints for table types
+24-08-2021 13:41:49	Gathering partition functions
+24-08-2021 13:41:49	Gathering partition schemes
+24-08-2021 13:41:49	Gathering functions
+24-08-2021 13:41:49	Gathering encrypted functions
+24-08-2021 13:41:49	Gathering aggregates
+24-08-2021 13:41:49	Gathering procedures
+24-08-2021 13:41:49	Gathering encrypted procedures
+24-08-2021 13:41:49	Gathering tables
+24-08-2021 13:41:49	Gathering primary keys
+24-08-2021 13:41:49	Gathering unique constraints
+24-08-2021 13:41:49	Gathering foreign keys
+24-08-2021 13:41:49	Gathering default constraints
+24-08-2021 13:41:49	Gathering check constraints
+24-08-2021 13:41:49	Gathering views
+24-08-2021 13:41:49	Gathering encrypted views
+24-08-2021 13:41:49	Gathering indexes
+24-08-2021 13:41:49	Gathering statistics
+24-08-2021 13:41:49	Gathering full-text index stoplists
+24-08-2021 13:41:49	Gathering search property lists
+24-08-2021 13:41:49	Gathering search properties
+24-08-2021 13:41:49	Gathering full-text indexes
+24-08-2021 13:41:49	Gathering column store indexes
+24-08-2021 13:41:49	Gathering spatial indexes
+24-08-2021 13:41:49	Gathering XML indexes
+24-08-2021 13:41:49	Gathering Selective XML indexes
+24-08-2021 13:41:49	Gathering encrypted triggers
+24-08-2021 13:41:49	Gathering triggers
+24-08-2021 13:41:49	Gathering encrypted and clr ddl triggers
+24-08-2021 13:41:49	Gathering ddl triggers
+24-08-2021 13:41:49	Gathering synonyms
+24-08-2021 13:41:49	Gathering defaults
+24-08-2021 13:41:49	Gathering data constraint uddt bindings
+24-08-2021 13:41:49	Gathering rules
+24-08-2021 13:41:49	Gathering data constraint uddt bindings
+24-08-2021 13:41:49	Gathering message types
+24-08-2021 13:41:49	Gathering queues
+24-08-2021 13:41:49	Gathering contracts
+24-08-2021 13:41:49	Gathering services
+24-08-2021 13:41:49	Gathering event notifications
+24-08-2021 13:41:49	Gathering remote service bindings
+24-08-2021 13:41:49	Gathering broker priorities
+24-08-2021 13:41:49	Gathering signatures
+24-08-2021 13:41:49	Gathering data compression options
+24-08-2021 13:41:49	Gathering sequence types
+24-08-2021 13:41:49	Gathering extended properties
+24-08-2021 13:41:50	Gathering credentials
+24-08-2021 13:41:50	Gathering logins
+24-08-2021 13:41:50	Gathering server audits
+24-08-2021 13:41:50	Scanning project for duplicate elements
+24-08-2021 13:41:50	Finished duplicate element processing
+24-08-2021 13:41:50	Finished importing database.
+24-08-2021 13:41:50	A summary of the import was saved to the following location: E:\testdome\FootballLeague\FootballLeague.Database\Import Schema Logs\FootballLeague.Datab_20210824081140.log
+24-08-2021 13:41:50	Click Finish to continue...

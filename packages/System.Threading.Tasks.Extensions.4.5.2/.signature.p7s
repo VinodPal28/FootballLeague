@@ -1,0 +1,299 @@
+Mapper.Mapper.Reset">
+            <summary>
+            Resets the mapper configuration. Not intended for production use, but for testing scenarios.
+            </summary>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map``1(System.Object)">
+            <summary>
+            Execute a mapping from the source object to a new destination object.
+            The source type is inferred from the source object.
+            </summary>
+            <typeparam name="TDestination">Destination type to create</typeparam>
+            <param name="source">Source object to map from</param>
+            <returns>Mapped destination object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map``1(System.Object,System.Action{AutoMapper.IMappingOperationOptions})">
+            <summary>
+            Execute a mapping from the source object to a new destination object with supplied mapping options.
+            </summary>
+            <typeparam name="TDestination">Destination type to create</typeparam>
+            <param name="source">Source object to map from</param>
+            <param name="opts">Mapping options</param>
+            <returns>Mapped destination object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map``2(``0)">
+            <summary>
+            Execute a mapping from the source object to a new destination object.
+            </summary>
+            <typeparam name="TSource">Source type to use, regardless of the runtime type</typeparam>
+            <typeparam name="TDestination">Destination type to create</typeparam>
+            <param name="source">Source object to map from</param>
+            <returns>Mapped destination object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map``2(``0,System.Action{AutoMapper.IMappingOperationOptions{``0,``1}})">
+            <summary>
+            Execute a mapping from the source object to a new destination object with supplied mapping options.
+            </summary>
+            <typeparam name="TSource">Source type to use</typeparam>
+            <typeparam name="TDestination">Destination type to create</typeparam>
+            <param name="source">Source object to map from</param>
+            <param name="opts">Mapping options</param>
+            <returns>Mapped destination object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map``2(``0,``1)">
+            <summary>
+            Execute a mapping from the source object to the existing destination object.
+            </summary>
+            <typeparam name="TSource">Source type to use</typeparam>
+            <typeparam name="TDestination">Dsetination type</typeparam>
+            <param name="source">Source object to map from</param>
+            <param name="destination">Destination object to map into</param>
+            <returns>The mapped destination object, same instance as the <paramref name="destination"/> object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map``2(``0,``1,System.Action{AutoMapper.IMappingOperationOptions{``0,``1}})">
+            <summary>
+            Execute a mapping from the source object to the existing destination object with supplied mapping options.
+            </summary>
+            <typeparam name="TSource">Source type to use</typeparam>
+            <typeparam name="TDestination">Destination type</typeparam>
+            <param name="source">Source object to map from</param>
+            <param name="destination">Destination object to map into</param>
+            <param name="opts">Mapping options</param>
+            <returns>The mapped destination object, same instance as the <paramref name="destination"/> object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map(System.Object,System.Type,System.Type)">
+            <summary>
+            Execute a mapping from the source object to a new destination object with explicit <see cref="T:System.Type"/> objects
+            </summary>
+            <param name="source">Source object to map from</param>
+            <param name="sourceType">Source type to use</param>
+            <param name="destinationType">Destination type to create</param>
+            <returns>Mapped destination object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map(System.Object,System.Type,System.Type,System.Action{AutoMapper.IMappingOperationOptions})">
+            <summary>
+            Execute a mapping from the source object to a new destination object with explicit <see cref="T:System.Type"/> objects and supplied mapping options.
+            </summary>
+            <param name="source">Source object to map from</param>
+            <param name="sourceType">Source type to use</param>
+            <param name="destinationType">Destination type to create</param>
+            <param name="opts">Mapping options</param>
+            <returns>Mapped destination object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map(System.Object,System.Object,System.Type,System.Type)">
+            <summary>
+            Execute a mapping from the source object to existing destination object with explicit <see cref="T:System.Type"/> objects
+            </summary>
+            <param name="source">Source object to map from</param>
+            <param name="destination">Destination object to map into</param>
+            <param name="sourceType">Source type to use</param>
+            <param name="destinationType">Destination type to use</param>
+            <returns>Mapped destination object, same instance as the <paramref name="destination"/> object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.Map(System.Object,System.Object,System.Type,System.Type,System.Action{AutoMapper.IMappingOperationOptions})">
+            <summary>
+            Execute a mapping from the source object to existing destination object with supplied mapping options and explicit <see cref="T:System.Type"/> objects
+            </summary>
+            <param name="source">Source object to map from</param>
+            <param name="destination">Destination object to map into</param>
+            <param name="sourceType">Source type to use</param>
+            <param name="destinationType">Destination type to use</param>
+            <param name="opts">Mapping options</param>
+            <returns>Mapped destination object, same instance as the <paramref name="destination"/> object</returns>
+        </member>
+        <member name="M:AutoMapper.Mapper.AssertConfigurationIsValid">
+            <summary>
+            Dry run all configured type maps and throw <see cref="T:AutoMapper.AutoMapperConfigurationException"/> for each problem
+            </summary>
+        </member>
+        <member name="T:AutoMapper.MemberList">
+            <summary>
+            Member list to check for configuration validation
+            </summary>
+        </member>
+        <member name="F:AutoMapper.MemberList.Destination">
+            <summary>
+            Check that all destination members are mapped
+            </summary>
+        </member>
+        <member name="F:AutoMapper.MemberList.Source">
+            <summary>
+            Check that all source members are mapped
+            </summary>
+        </member>
+        <member name="F:AutoMapper.MemberList.None">
+            <summary>
+            Check neither source nor destination members, skipping validation
+            </summary>
+        </member>
+        <member name="T:AutoMapper.Profile">
+            <summary>
+                Provides a named configuration for maps. Naming conventions become scoped per profile.
+            </summary>
+        </member>
+        <member name="T:AutoMapper.QueryableExtensions.ExpressionBuilder.NullsafeQueryRewriter">
+            <summary>
+            Expression visitor for making member access null-safe.
+            </summary>
+            <remarks>
+            Use <see cref="T:AutoMapper.QueryableExtensions.ExpressionBuilder.NullsafeQueryRewriter" /> to make a query null-safe.
+            copied from NeinLinq (MIT License): https://github.com/axelheer/nein-linq/blob/master/src/NeinLinq/NullsafeQueryRewriter.cs
+            </remarks>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.ExpressionBuilder.NullsafeQueryRewriter.VisitMember(System.Linq.Expressions.MemberExpression)">
+            <inheritdoc />
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.ExpressionBuilder.NullsafeQueryRewriter.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)">
+            <inheritdoc />
+        </member>
+        <member name="T:AutoMapper.QueryableExtensions.Extensions">
+            <summary>
+            Queryable extensions for AutoMapper
+            </summary>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Extensions.Map``2(System.Linq.IQueryable{``0},System.Linq.IQueryable{``1})">
+            <summary>
+            Maps a queryable expression of a source type to a queryable expression of a destination type
+            </summary>
+            <typeparam name="TSource">Source type</typeparam>
+            <typeparam name="TDestination">Destination type</typeparam>
+            <param name="sourceQuery">Source queryable</param>
+            <param name="destQuery">Destination queryable</param>
+            <returns>Mapped destination queryable</returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Extensions.Map``2(System.Linq.IQueryable{``0},System.Linq.IQueryable{``1},AutoMapper.IConfigurationProvider)">
+            <summary>
+            Maps a queryable expression of a source type to a queryable expression of a destination type
+            </summary>
+            <typeparam name="TSource">Source type</typeparam>
+            <typeparam name="TDestination">Destination type</typeparam>
+            <param name="sourceQuery">Source queryable</param>
+            <param name="destQuery">Destination queryable</param>
+            <param name="config"></param>
+            <returns>Mapped destination queryable</returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Extensions.ProjectTo``1(System.Linq.IQueryable,System.Object,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">
+            <summary>
+            Extension method to project from a queryable using the provided mapping engine
+            </summary>
+            <remarks>Projections are only calculated once and cached</remarks>
+            <typeparam name="TDestination">Destination type</typeparam>
+            <param name="source">Queryable source</param>
+            <param name="parameters">Optional parameter object for parameterized mapping expressions</param>
+            <param name="membersToExpand">Explicit members to expand</param>
+            <returns>Expression to project into</returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Extensions.ProjectTo``1(System.Linq.IQueryable,AutoMapper.IConfigurationProvider,System.Object,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">
+            <summary>
+            Extension method to project from a queryable using the provided mapping engine
+            </summary>
+            <remarks>Projections are only calculated once and cached</remarks>
+            <typeparam name="TDestination">Destination type</typeparam>
+            <param name="source">Queryable source</param>
+            <param name="configuration">Mapper configuration</param>
+            <param name="parameters">Optional parameter object for parameterized mapping expressions</param>
+            <param name="membersToExpand">Explicit members to expand</param>
+            <returns>Expression to project into</returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Extensions.ProjectTo``1(System.Linq.IQueryable,AutoMapper.IConfigurationProvider,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">
+            <summary>
+            Extension method to project from a queryable using the provided mapping engine
+            </summary>
+            <remarks>Projections are only calculated once and cached</remarks>
+            <typeparam name="TDestination">Destination type</typeparam>
+            <param name="source">Queryable source</param>
+            <param name="configuration">Mapper configuration</param>
+            <param name="membersToExpand">Explicit members to expand</param>
+            <returns>Expression to project into</returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Extensions.ProjectTo``1(System.Linq.IQueryable,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">
+            <summary>
+            Extension method to project from a queryable using the provided mapping engine
+            </summary>
+            <remarks>Projections are only calculated once and cached</remarks>
+            <typeparam name="TDestination">Destination type</typeparam>
+            <param name="source">Queryable source</param>
+            <param name="membersToExpand">Explicit members to expand</param>
+            <returns>Expression to project into</returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Extensions.ProjectTo``1(System.Linq.IQueryable,System.Collections.Generic.IDictionary{System.String,System.Object},System.String[])">
+            <summary>
+            Projects the source type to the destination type given the mapping configuration
+            </summary>
+            <typeparam name="TDestination">Destination type to map to</typeparam>
+            <param name="source">Queryable source</param>
+            <param name="parameters">Optional parameter object for parameterized mapping expressions</param>
+            <param name="membersToExpand">Explicit members to expand</param>
+            <returns>Queryable result, use queryable extension methods to project and execute result</returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Extensions.ProjectTo``1(System.Linq.IQueryable,AutoMapper.IConfigurationProvider,System.Collections.Generic.IDictionary{System.String,System.Object},System.String[])">
+            <summary>
+            Projects the source type to the destination type given the mapping configuration
+            </summary>
+            <typeparam name="TDestination">Destination type to map to</typeparam>
+            <param name="source">Queryable source</param>
+            <param name="configuration">Mapper configuration</param>
+            <param name="parameters">Optional parameter object for parameterized mapping expressions</param>
+            <param name="membersToExpand">Explicit members to expand</param>
+            <returns>Queryable result, use queryable extension methods to project and execute result</returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.ISourceInjectedQueryable`1.OnEnumerated(System.Action{System.Collections.Generic.IEnumerable{System.Object}})">
+            <summary>
+            Called when [enumerated].
+            </summary>
+            <param name="enumerationHandler">The enumeration handler.</param>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.ISourceInjectedQueryable`1.AsQueryable">
+            <summary>
+            Casts itself to IQueryable&lt;T&gt; so no explicit casting is necessary
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.IQueryDataSourceInjection`1.For``1">
+            <summary>
+            Creates the mapped query with an optional inspector
+            </summary>
+            <typeparam name="TDestination">The type of the destination.</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.IQueryDataSourceInjection`1.BeforeProjection(System.Linq.Expressions.ExpressionVisitor[])">
+            <summary>
+            ExpressionVisitors called before MappingVisitor itself is executed
+            </summary>
+            <param name="visitors">The visitors.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.IQueryDataSourceInjection`1.AfterProjection(System.Linq.Expressions.ExpressionVisitor[])">
+            <summary>
+            ExpressionVisitors called after the MappingVisitor itself is executed
+            </summary>
+            <param name="visitors">The visitors.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.IQueryDataSourceInjection`1.OnError(System.Action{System.Exception})">
+            <summary>
+            Allows specifying a handler that will be called when the underlying QueryProvider encounters an exception.
+            This is especially useful if you expose the resulting IQueryable in e.g. a WebApi controller where
+            you do not call "ToList" yourself and therefore cannot catch exceptions
+            </summary>
+            <param name="exceptionHandler">The exception handler.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.QueryDataSourceInjection`1.BeforeProjection(System.Linq.Expressions.ExpressionVisitor[])">
+            <summary>
+            ExpressionVisitors called before MappingVisitor itself is executed
+            </summary>
+            <param name="visitors">The visitors.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.QueryDataSourceInjection`1.AfterProjection(System.Linq.Expressions.ExpressionVisitor[])">
+            <summary>
+            ExpressionVisitors called after the MappingVisitor itself is executed
+            </summary>
+            <param name="visitors">The visitors.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoMapper.QueryableExtensions.Impl.QueryDataSourceInjection`1.OnError(System.Action{System.Exception})">
+            <summary>
+            Allows specifying a handler that will be called when the underlying QueryProvider encounters an exception.
+            This is especially useful if you expose the resulting IQueryable in e

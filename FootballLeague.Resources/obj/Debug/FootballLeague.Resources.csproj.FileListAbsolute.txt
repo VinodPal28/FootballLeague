@@ -1,0 +1,5 @@
+E:\testdome\FootballLeague\FootballLeague.Resources\bin\Debug\FootballLeague.Resources.dll
+E:\testdome\FootballLeague\FootballLeague.Resources\bin\Debug\FootballLeague.Resources.pdb
+E:\testdome\FootballLeague\FootballLeague.Resources\obj\Debug\FootballLeague.Resources.csprojResolveAssemblyReference.cache
+E:\testdome\FootballLeague\FootballLeague.Resources\obj\Debug\FootballLeague.Resources.dll
+E:\testdome\FootballLeague\FootballLeague.Resources\obj\Debug\FootballLeague.Resources.pdb

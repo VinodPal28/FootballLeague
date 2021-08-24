@@ -1,0 +1,16 @@
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\FootballLeague.Data.dll.config
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\FootballLeague.Data.dll
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\FootballLeague.Data.pdb
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\AutoMapper.dll
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\EntityFramework.dll
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\FootballLeague.EntityFramework.dll
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\FootballLeague.Resources.dll
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\FootballLeague.EntityFramework.pdb
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\FootballLeague.Resources.pdb
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\AutoMapper.xml
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\EntityFramework.xml
+E:\testdome\FootballLeague\FootballLeague.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\testdome\FootballLeague\FootballLeague.Data\obj\Debug\FootballLeague.Data.csprojResolveAssemblyReference.cache
+E:\testdome\FootballLeague\FootballLeague.Data\obj\Debug\FootballLeague.Data.dll
+E:\testdome\FootballLeague\FootballLeague.Data\obj\Debug\FootballLeague.Data.pdb
