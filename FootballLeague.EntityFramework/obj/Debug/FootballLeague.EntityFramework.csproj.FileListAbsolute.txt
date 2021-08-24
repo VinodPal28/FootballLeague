@@ -8,3 +8,12 @@ E:\testdome\FootballLeague\FootballLeague.EntityFramework\bin\Debug\EntityFramew
 E:\testdome\FootballLeague\FootballLeague.EntityFramework\obj\Debug\FootballLeague.EntityFramework.csprojResolveAssemblyReference.cache
 E:\testdome\FootballLeague\FootballLeague.EntityFramework\obj\Debug\FootballLeague.EntityFramework.dll
 E:\testdome\FootballLeague\FootballLeague.EntityFramework\obj\Debug\FootballLeague.EntityFramework.pdb
+E:\GIT\Football\FootballLeague.EntityFramework\bin\Debug\FootballLeague.EntityFramework.dll.config
+E:\GIT\Football\FootballLeague.EntityFramework\bin\Debug\FootballLeague.EntityFramework.dll
+E:\GIT\Football\FootballLeague.EntityFramework\bin\Debug\FootballLeague.EntityFramework.pdb
+E:\GIT\Football\FootballLeague.EntityFramework\bin\Debug\EntityFramework.dll
+E:\GIT\Football\FootballLeague.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+E:\GIT\Football\FootballLeague.EntityFramework\bin\Debug\EntityFramework.xml
+E:\GIT\Football\FootballLeague.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+E:\GIT\Football\FootballLeague.EntityFramework\obj\Debug\FootballLeague.EntityFramework.dll
+E:\GIT\Football\FootballLeague.EntityFramework\obj\Debug\FootballLeague.EntityFramework.pdb

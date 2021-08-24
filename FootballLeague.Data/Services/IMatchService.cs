@@ -11,6 +11,6 @@ namespace FootballLeague.Data.Services
     {
         bool isAddMatchesdetails(MatchesResource matchDTO);
 
-        List<TeamsMatches> getTeamsRanking();
+        List<TeamsMatchesResource> getTeamsRanking();
     }
 }

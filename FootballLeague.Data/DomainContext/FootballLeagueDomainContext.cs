@@ -22,8 +22,7 @@ namespace FootballLeague.Data.DomainContext
         public virtual DbSet<Teams> Teams { get; set; }
         public virtual DbSet<Matches> Matches { get; set; }
         public virtual DbSet<log> log { get; set; }
-        public virtual DbSet<TeamsMatches> TeamsMatches { get; set; }
-
+       
         #endregion
 
         #region Constructor
@@ -67,11 +66,8 @@ namespace FootballLeague.Data.DomainContext
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-            modelBuilder.Entity<TeamsMatches>().MapToStoredProcedures();
-            base.OnModelCreating(modelBuilder);
-
-            
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();          
+            base.OnModelCreating(modelBuilder);          
         }
 
         public override int SaveChanges()

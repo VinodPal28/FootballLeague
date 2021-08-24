@@ -3,3 +3,7 @@ E:\testdome\FootballLeague\FootballLeague.Resources\bin\Debug\FootballLeague.Res
 E:\testdome\FootballLeague\FootballLeague.Resources\obj\Debug\FootballLeague.Resources.csprojResolveAssemblyReference.cache
 E:\testdome\FootballLeague\FootballLeague.Resources\obj\Debug\FootballLeague.Resources.dll
 E:\testdome\FootballLeague\FootballLeague.Resources\obj\Debug\FootballLeague.Resources.pdb
+E:\GIT\Football\FootballLeague.Resources\bin\Debug\FootballLeague.Resources.dll
+E:\GIT\Football\FootballLeague.Resources\bin\Debug\FootballLeague.Resources.pdb
+E:\GIT\Football\FootballLeague.Resources\obj\Debug\FootballLeague.Resources.dll
+E:\GIT\Football\FootballLeague.Resources\obj\Debug\FootballLeague.Resources.pdb

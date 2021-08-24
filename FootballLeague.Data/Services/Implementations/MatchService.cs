@@ -41,11 +41,11 @@ namespace FootballLeague.Data.Services.Implementations
 
        
 
-        public List<TeamsMatches> getTeamsRanking()
+        public List<TeamsMatchesResource> getTeamsRanking()
         {
             var connection = new SqlConnection("Data Source=VINOD;Initial Catalog=FootballLeague;Integrated Security=SSPI;");          
             string procedureName = "[dbo].[SP_GetTeamsRanking]";
-            var result = new List<TeamsMatches>();
+            var result = new List<TeamsMatchesResource>();
             using (SqlCommand command = new SqlCommand(procedureName, connection))
             {
                 command.CommandType = CommandType.StoredProcedure;                
@@ -64,7 +64,7 @@ namespace FootballLeague.Data.Services.Implementations
                         int Pts = Convert.ToInt32(reader[7].ToString());
                        
 
-                        TeamsMatches teamsMatches = new TeamsMatches()
+                        TeamsMatchesResource teamsMatches = new TeamsMatchesResource()
                         {
                             TeamName = TeamName,
                             GP = GP,
